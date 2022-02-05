@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alive way</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="menubar.css">
+</head>
+<body>
+     <!-- menubar start -->
+
+     <div class="menubar bg-light fixed-top">
+        <div class="container py-3 d-flex align-items-center">
+            <div class="logo w-25">
+                <img class="w-100" src="https://alivewaymyanmar.com/sites/logo/logowithtexthr.png" alt="">
+            </div>
+            <div class="mx-auto"></div>
+            <div class="menuContainer d-none d-lg-block">
+                <a class="menu text-decoration-none text-dark ms-3" href="home.html" >Home</a>
+                <a class="menu text-decoration-none text-dark ms-3" href="product.html" >Products</a>
+                <div class="dropdown d-inline">
+                    <a class="menu text-decoration-none text-danger ms-3 dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" href="" >Medias</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a href="magazine.html" class="dropdown-item text-danger">E-Magazine</a></li>
+                        <li><a href="media.html" class="dropdown-item">Media</a></li>
+                    </ul>
+                </div>
+                <a class="menu text-decoration-none text-dark ms-3" href="term.html" >Terms of services</a>
+                <a class="menu text-decoration-none text-dark ms-3" href="contact.html" >Contact</a>
+                <button class="bg-warning rounded border-0 text-dark ms-3"><a class="text-decoration-none" href="login.html">Login</a></button>
+                <button class="bg-warning rounded border-0 text-dark ms-3"><a class="text-decoration-none" href="register.html">Register</a></button>
+            </div>
+            <button class="bg-warning rounded border-0 text-dark ms-3 d-lg-none d-sm-block"><a class="text-decoration-none" href="login.html">Login</a></button>
+                <button class="bg-warning rounded border-0 text-dark ms-3 d-lg-none d-sm-block"><a class="text-decoration-none" href="register.html">Register</a></button>
+            <div class="mubar d-lg-none d-sm-block ms-3">
+                <div class="mu line1"></div>
+                <div class="mu line2"></div>
+                <div class="mu line3"></div>
+            </div>
+        </div>
+        <div class="overlay bg-light container p-5">
+            <a class="menu text-decoration-none text-dark my-3 d-block" href="home.html" >Home</a>
+            <a class="menu text-decoration-none text-dark my-3 d-block" href="product.html" >Products</a>
+            <div class="dropdown d-block">
+                <a class="menu text-decoration-none text-danger my-3 dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" href="" >Medias</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a href="magazine.html" class="dropdown-item text-danger">E-Magazine</a></li>
+                    <li><a href="media.html" class="dropdown-item">Media</a></li>
+                </ul>
+            </div>
+            <a class="menu text-decoration-none text-dark my-3 d-block" href="term.html" >Terms of services</a>
+            <a class="menu text-decoration-none text-dark my-3 d-block" href="contact.html">Contact</a>
+        </div>
+    </div>
+<!-- menubar end -->
+    
+<script src="script.js"></script>   
+</body>
+</html>

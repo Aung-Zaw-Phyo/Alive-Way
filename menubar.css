@@ -1,0 +1,38 @@
+.menu:hover{
+    color: red !important;
+}
+
+
+.mu{
+    width: 40px;
+    height: 3px;
+    background-color: rgb(153, 148, 148);
+    margin: 3px;
+}
+
+.line1, .line2, .line3, .overlay{
+    transition: all .5s ease-in;
+}
+
+.remove{
+    opacity: 0;
+}
+
+.line1Deg{
+    transform: rotate(45deg) translate(4px, 5px);
+}
+
+.line3Deg{
+    transform: rotate(-45deg) translate(4px, -5px);
+}
+
+.overlay{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    border-radius: 5px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+}
