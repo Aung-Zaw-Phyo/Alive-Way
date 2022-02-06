@@ -19,4 +19,15 @@ mubarTag.addEventListener("click", ()=>{
         mubarTag.classList.add("opened")
         overlayTag.classList.add("d-block")
     }
-})
+});
+
+// back to top
+
+const goTag=document.querySelector(".goTop");        
+window.addEventListener("scroll", ()=>{
+    if (window.pageYOffset>100) {
+        goTag.classList.remove("d-none")
+    } else {
+        goTag.classList.add("d-none")
+    }
+});    
