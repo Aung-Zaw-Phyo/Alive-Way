@@ -2,6 +2,10 @@
     color: red !important;
 }
 
+.fixed-top{
+    opacity: 0.99 !important;
+}
+
 
 .mu{
     width: 40px;
